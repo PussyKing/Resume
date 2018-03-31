@@ -1,6 +1,6 @@
 .hero{
   display: flex;
-  @include centerer-xy();
+
 
   &__section{
     display: flex;
