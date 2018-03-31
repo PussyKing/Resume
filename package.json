@@ -1,0 +1,39 @@
+{
+  "name": "Arthur Bondarenko Resume",
+  "version": "1.0.0",
+  "description": "This is my first landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PussyKing/Resume.git"
+  },
+  "author": "Arthur Bondarenko",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/PussyKing/Resume.git"
+  },
+  "homepage": "https://github.com/PussyKing/Resume",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.9.0",
+    "jquery": "^3.3.1",
+    "normalize.scss": "^0.1.0"
+  }
+}

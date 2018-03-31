@@ -1,0 +1,56 @@
+.resume{
+  background-color: #f2f2f2;
+
+  &__title {
+    text-align: center;
+    font-size: 3.125rem;
+    color: black;
+    padding: 30px 0;
+  }
+    &__block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column
+ }
+}
+.blockquote {
+  font-size: 2.125rem;
+  width: 750px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: black;
+  text-align: center;
+  
+  
+  @media (max-width: 650px) {
+    width: 500px;
+  }
+  @media (max-width: 415px) {
+    width: 410px;
+    font-size: 1.750rem;
+  }
+  &:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+
+  &__cite {
+    color: #999999;
+    font-size: 1.563rem;
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 30px;
+
+    &:before {
+      content: "\2014 \2009";
+    }
+  }}
+

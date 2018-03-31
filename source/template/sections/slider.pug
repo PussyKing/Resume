@@ -1,10 +1,28 @@
-slider.slider
-    ul.slider__list
-        li.slider__item
-            img.slider__img(src="images/mom1.jpg" alt="picture")
-        li.slider__item
-            img.slider__img(src="images/mom1.jpg" alt="picture")
-        li.slider__item
-            img.slider__img(src="images/mom1.jpg" alt="picture")
-        li.slider__item
-            img.slider__img(src="images/mom1.jpg" alt="picture")
+.slider#slider
+    .slider__title Отзывы
+    ul.owl-carousel.owl-theme
+        li.owl-carousel__item
+            img.owl-carousel__img(src="images/mom1.jpg" alt="picture")
+            p.slider__description Он у меня умничка,такой хороший.
+            .slider__name Аэлита
+            p.slider__name__description Моя мама
+        li.owl-carousel__item
+            img.owl-carousel__img(src="images/deactivated.png" alt="picture")
+            p.slider__description Пожалуйста помогите,спасите он держит меня в под...
+            .slider__name undefined
+            p.slider__name__description Моя девушка
+        li.owl-carousel__item
+            img.owl-carousel__img(src="images/hobo.jpg" alt="picture")
+            p.slider__description Чёткий пацан,то что надо отвечаю ёпта
+            .slider__name Тапир
+            p.slider__name__description Мой друг
+        li.owl-carousel__item
+            img.owl-carousel__img(src="images/dog.jpg" alt="picture")
+            p.slider__description Гав-Гав Гав-Гав
+            .slider__name Шарик
+            p.slider__name__description Моя собака
+    .owl-controls
+    .owl-nav
+        .owl-prev
+        .owl-next
+

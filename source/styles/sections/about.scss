@@ -1,0 +1,53 @@
+.about{
+
+
+  &__title{
+    text-align: center;
+    font-size: 3.125rem;
+    padding-top: 30px;
+
+    @media (max-width: 530px){
+      font-size:2.5rem;
+
+    }
+  }
+
+  &__block{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+
+  &__container{
+    flex-direction:column;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+    @media(max-width: 690px ){
+      width: 50%;
+    }
+    @media(max-width: 420px ){
+      width: 100%;
+    }
+    & fa{
+      font-size: 4.375rem;
+    }
+  }
+
+  &__icon{
+    font-size: 4.375rem;
+  }
+
+  &__description{
+    font-size:1.563rem;
+    text-align: center;
+  }
+}

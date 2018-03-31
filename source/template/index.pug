@@ -1,0 +1,23 @@
+doctype html
+html(lang='ru')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content="IE=edge")
+        meta(name='viewport' content='width=device-width')
+        link(rel="shortcut icon" href="favicon.ico")
+        link(rel="stylesheet" href="css/main.min.css")
+        link(rel="stylesheet" href="css/css-libs.min.css")
+        link(rel="srylesheet" href="..libs/fontawesome/web-fonts-with-css/css/fontawesome.min.css")
+        title My Resume
+    body
+        include sections/header
+        include sections/instructions
+        include sections/slider
+        include sections/business-card
+        include sections/resume
+        include sections/about
+        include sections/work
+        include sections/footer
+
+        script(src="js/libs.min.js")
+        script(src="js/main.min.js")

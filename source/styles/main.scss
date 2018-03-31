@@ -1,0 +1,22 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+@import "libs";
+
+
+@import "global/fonts";
+@import "global/mixins";
+@import "global/var";
+@import "global/base";
+@import "global/common";
+
+@import "sections/header";
+@import "sections/flags";
+@import "sections/nav";
+@import "sections/hero";
+@import "sections/instructions";
+@import "sections/slider";
+@import "sections/business-card";
+@import "sections/resume";
+@import "sections/about";
+@import "sections/work";
+@import "sections/footer";

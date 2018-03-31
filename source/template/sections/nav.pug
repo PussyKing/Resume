@@ -1,0 +1,17 @@
+nav.nav#top
+    - var items = ['Главная', 'Инструкция', 'Отзывы', 'Визитка', 'Резюме', 'Обо мне', 'Работы']
+    each item in items
+        if item == 'Главная'
+            a.nav__link(href="#header")= item
+        if item == 'Инструкция'
+            a.nav__link(href="#instructions")= item
+        if item == 'Отзывы'
+            a.nav__link(href="#slider")= item
+        if item == 'Визитка'
+            a.nav__link(href="#card")= item
+        if item == 'Резюме'
+            a.nav__link(href="#resume")= item
+        if item == 'Обо мне'
+            a.nav__link(href="#about")= item
+        if item == 'Работы'
+            a.nav__link(href="#work")= item

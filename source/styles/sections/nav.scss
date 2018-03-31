@@ -1,0 +1,15 @@
+.nav{
+
+  &__link{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+
+    &:hover{
+      color: #de9b49;
+      text-decoration: underline;
+    }
+  }
+}

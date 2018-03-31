@@ -1,0 +1,18 @@
+.header{
+  display: flex;
+  min-height:100vh;
+  min-width:100vh;
+  background: #ccc url("../images/header-background.jpg") center/cover no-repeat;
+
+  &__bar{
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    justify-content:center;
+    align-items:center;
+
+    @media(max-width: 800px){
+      display: none;
+    }
+  }
+}

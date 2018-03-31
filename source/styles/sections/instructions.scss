@@ -1,0 +1,62 @@
+.btn{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.instructions{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+
+
+  &__container{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+  &__title{
+    font-size:3.125rem;
+    text-align: center;
+  }
+
+  &__step{
+    width:160px;
+    height: 160px;
+    border: 2px solid #0F9DD0;
+    color: #0F9DD0;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:4.375rem;
+    margin: 0 auto;
+  }
+
+  &__description{
+    font-size: 1.875rem;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  &__button{
+    border: 3px solid #0F9DD0;
+    border-radius: 30px;
+    height: 75px;
+    width: 250px;
+    background: none;
+    text-align: center;
+    margin-top: 50px;
+    font-size:20px;
+
+    &:hover{
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: all .5s ease-in 0s;
+    }
+  }
+}
