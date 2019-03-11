@@ -47,6 +47,43 @@ $('.owl-carousel').owlCarousel({
 
 
 
-$(document).ready(function () {
-    $("h1").animate("zoomInUp", "zoomOutDown");
-});
+
+/*-------------------- ScrollMagic ---------------------------------------*/
+
+var controller = new ScrollMagic.Controller();
+
+/* Instruction Section */
+
+new ScrollMagic.Scene({triggerElement: ".instructions"})
+    .setClassToggle(".instructions", "show")
+    .addTo(controller);
+
+/* Slider Section */
+
+new ScrollMagic.Scene({triggerElement: ".slider"})
+    .setClassToggle(".slider", "show")
+    .addTo(controller);
+
+/* Business-card section */
+
+new ScrollMagic.Scene({triggerElement: ".business-card"})
+    .setClassToggle(".business-card", "show")
+    .addTo(controller);
+
+/* Resume section */
+
+new ScrollMagic.Scene({triggerElement: ".resume"})
+    .setClassToggle(".resume", "show")
+    .addTo(controller);
+
+/* About section */
+
+new ScrollMagic.Scene({triggerElement: ".about"})
+    .setClassToggle(".about", "show")
+    .addTo(controller);
+
+/* My work section */
+
+new ScrollMagic.Scene({triggerElement: ".work"})
+    .setClassToggle(".work", "show")
+    .addTo(controller);

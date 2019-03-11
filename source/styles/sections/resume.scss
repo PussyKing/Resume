@@ -1,6 +1,7 @@
 .resume{
   background-color: #f2f2f2;
-
+  opacity: 0; // For ScrollMagic
+  transition: 1s; // For ScrollMagic
   &__title {
     text-align: center;
     font-size: 3.125rem;
@@ -54,3 +55,8 @@
     }
   }}
 
+/* For ScrollMagic */
+
+.resume.show{
+  opacity: 1;
+}

@@ -45,6 +45,7 @@ gulp.task('scripts',function () {
     return gulp.src([
         'source/libs/jquery/dist/jquery.min.js',
         'source/libs/owl.carousel/dist/owl.carousel.min.js',
+        'source/libs/ScrollMagic/scrollmagic/minified/ScrollMagic.min.js',
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

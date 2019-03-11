@@ -16,8 +16,20 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    animation: fly 3s ease-in-out infinite;
+    position: relative;
   }
-
+@keyframes fly {
+  0%{
+    top:0px;
+  }
+  50%{
+    top:25px;
+  }
+  100%{
+    top:0px;
+  }
+}
   &__title{
     font-size:3rem;
     color: #fff;

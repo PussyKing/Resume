@@ -1,5 +1,6 @@
 .about{
-
+  opacity: 0; // For ScrollMagic
+  transition: 1s; // For ScrollMagic
 
   &__title{
     text-align: center;
@@ -50,4 +51,10 @@
     font-size:1.563rem;
     text-align: center;
   }
+}
+
+/* For ScrollMagic */
+
+.about.show{
+  opacity: 1;
 }

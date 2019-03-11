@@ -1,5 +1,6 @@
 .business-card{
-
+  opacity: 0; // For ScrollMagic
+  transition: 1s; // For Scroll Magic
   &__title{
     font-size:3.125rem;
     text-align: center;
@@ -43,4 +44,10 @@
   & a:hover{
     cursor: pointer;
   }
+}
+
+/* For ScrollMagic */
+
+.business-card.show{
+  opacity: 1;
 }
